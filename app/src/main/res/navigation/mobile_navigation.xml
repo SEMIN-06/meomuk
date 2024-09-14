@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_menu_suggest">
+
+    <fragment
+        android:id="@+id/navigation_menu_suggest"
+        android:name="com.semin.meomuk.ui.MenuSuggestFragment"
+        android:label="@string/title_menu_suggest"
+        tools:layout="@layout/fragment_menu_suggest" />
+
+    <fragment
+        android:id="@+id/navigation_menu_add"
+        android:name="com.semin.meomuk.ui.MenuAddFragment"
+        android:label="@string/title_menu_add"
+        tools:layout="@layout/fragment_menu_add" />
+
+    <fragment
+        android:id="@+id/navigation_random_answer"
+        android:name="com.semin.meomuk.ui.RandomAnswerFragment"
+        android:label="@string/title_random_answer"
+        tools:layout="@layout/fragment_random_answer" />
+
+
+</navigation>

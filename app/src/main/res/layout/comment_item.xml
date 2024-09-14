@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#f0f0f0"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/commentNickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nickname"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/commentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textSize="12sp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#888888"/>
+
+    <RatingBar
+        android:id="@+id/commentRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:isIndicator="true"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:numStars="5"
+        android:rating="0"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:stepSize="1.0" />
+
+    <TextView
+        android:id="@+id/commentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="내용"
+        android:textSize="16sp" />
+</LinearLayout>

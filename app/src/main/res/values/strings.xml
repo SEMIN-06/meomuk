@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">머먹</string>
+    <string name="title_menu_suggest">오늘 뭐먹지?</string>
+    <string name="title_menu_add">메뉴 추가</string>
+    <string name="title_random_answer">마법의 소라고동</string>
+    <string name="error_occurred">오류가 발생했습니다. (%s)</string>
+    <string name="button_menu_suggest">메뉴 추천</string>
+    <string name="button_menu_recipe">레시피</string>
+    <string name="button_menu_history">역사</string>
+    <string name="button_menu_comments">리뷰</string>
+    <string name="fill_all_inputs">모든 내용을 입력해주세요.</string>
+    <string name="menu_add_success">메뉴가 추가되었습니다.</string>
+    <string name="select_image_required">이미지가 선택되지 않았습니다.</string>
+    <string name="image_upload_cancled">이미지 업로드를 취소했습니다.</string>
+    <string name="review_success">리뷰를 남겼습니다!</string>
+    <string name="days_ago">%s일 전</string>
+    <string name="hours_ago">%s시간 전</string>
+    <string name="minutes_ago">%s분 전</string>
+    <string name="now">지금</string>
+    <string name="click_pickup_first">메뉴 추천 버튼을 먼저 눌러보세요!</string>
+    <string name="random_ans1">언젠가는.</string>
+    <string name="random_ans2">가만히 있어.</string>
+    <string name="random_ans3">둘 다.</string>
+    <string name="random_ans4">그것도 안 돼.</string>
+    <string name="random_ans5">그럼.</string>
+    <string name="random_ans6">다시 한 번 물어봐.</string>
+    <string name="random_ans7">안 돼.</string>
+    <string name="random_ans8">맞아.</string>
+    <string name="random_ans9">없어.</string>
+    <string name="nickname_input">닉네임</string>
+    <string name="comment_input">내용</string>
+    <string name="button_review">리뷰 남기기</string>
+    <string name="name_input">이름</string>
+    <string name="desc_input">설명</string>
+    <string name="recipe_input">레시피</string>
+    <string name="history_input">역사</string>
+    <string name="button_image_upload">이미지 올리기</string>
+    <string name="button_menu_add">메뉴 추가하기</string>
+
+</resources>
